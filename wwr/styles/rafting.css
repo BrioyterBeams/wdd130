@@ -1,0 +1,42 @@
+:root {
+    --primary-color: #171D1C; /* Eerie Black */
+    --secondary-color: #3B6E8B; /* Cerulean */
+    --accent1-color: #AEC5EB; /* Powder Blue */
+    --accent2-color: #ECFEF3; /* Honeydew */
+  }
+
+  h1, h2, h3, h4, h5, h6 { 
+    font-family: 'Roboto' serif; 
+    color: var(--primary-color); 
+}
+
+p {
+    font-family: 'Monsrrat' serif;
+    color: var(--secondary-color);
+}
+
+a img {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: var(--accent1-color)
+}
+
+.hero article img {
+    float: right;
+}
