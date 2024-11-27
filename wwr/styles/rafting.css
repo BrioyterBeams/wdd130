@@ -60,7 +60,7 @@ p {
 }
 
 .hero img {
-    display: absolute;
+    position: absolute;
     width: 100%;
     height: auto;
 }
